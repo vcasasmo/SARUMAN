@@ -174,6 +174,4 @@ Uncertainty estimates should not be interpreted as guarantees of accuracy under 
 
 Independent validation is required before applying the methodology to new experimental configurations or operational characterization tasks.
 
-## License
 
-Licensing terms are to be established in accordance with the applicable institutional requirements before public distribution.
