@@ -1,3 +1,6 @@
+
+<img width="1536" height="1024" alt="SARUMAN" src="https://github.com/user-attachments/assets/69e4b0a9-a0ba-4653-8870-2837f1c105ba" />
+
 # SARUMAN
 
 **Spatial Activity Reconstruction Using Machine-learning Algorithms for Nuclear Waste**
