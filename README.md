@@ -3,23 +3,23 @@
 
 # SARUMAN
 
+# SARUMAN
+
 **Spatial Activity Reconstruction Using Machine-learning Algorithms for Nuclear Waste**
 
-SARUMAN is a Python research code for three-dimensional radionuclide activity reconstruction in radioactive waste drums using Angular Segmented Gamma Scanning (ASGS), X-ray computed tomography (CT), and Bayesian inference.
+SARUMAN is a Python research code developed by **Victor J. Casas Molina** as part of his doctoral research, *"Bayesian Machine Learning for Accurate Characterization of Radiological Waste"*, conducted at the **Belgian Nuclear Research Centre (SCK CEN)** in collaboration with **Ghent University (UGent)**.
+
+The software was developed to investigate three-dimensional radionuclide activity reconstruction in radioactive waste drums using Angular Segmented Gamma Scanning (ASGS), X-ray computed tomography (CT), and Bayesian inference.
 
 The workflow combines CT-derived attenuation estimates, a machine-learning detector-efficiency surrogate, gamma spectrometry measurements, and stochastic variational inference to reconstruct radionuclide activity distributions and quantify their uncertainty.
 
-## Research Software and Scope of Applicability
+SARUMAN represents the research software developed during this doctoral work. The publicly available version is a cleaned and packaged implementation of the original research code, intended to facilitate reproducibility, scientific collaboration, and further methodological development.
 
-SARUMAN was developed as part of doctoral research into Bayesian machine-learning methods for radioactive waste characterization.
+**Associated scientific publication:**  
+https://doi.org/10.1016/j.anucene.2026.112850
 
-**The current implementation is tailored to a specific experimental characterization system.** In particular, the CT-based attenuation model, the trained detector-efficiency surrogate, and several geometrical and acquisition parameters correspond to the equipment and measurement configuration used during development.
-
-Consequently, SARUMAN should not be considered a general-purpose, ready-to-use characterization tool for arbitrary measurement systems. Applying it to different equipment or acquisition configurations may require new calibration data, surrogate retraining, geometrical adaptations, and experimental validation.
-
-Nevertheless, the underlying methodology and many software components are intended to be transferable. Researchers and developers are encouraged to reuse, extend, and adapt the code for other measurement systems, inverse problems, and broader scientific applications, subject to the applicable license and institutional permissions.
-
-**SARUMAN is provided as a research framework and reference implementation, rather than a universally validated characterization solution.**
+**Experimental dataset:**  
+https://doi.org/10.5281/zenodo.24062457
 
 ## Features
 
