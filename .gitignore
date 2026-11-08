@@ -1,0 +1,39 @@
+
+# SARUMAN local runs and artifacts
+/config.yaml
+/config.yaml.*
+/*.h5
+/results/
+/debug/
+/ct_products/
+/src/data/scenarios/
+*.pyc
+__pycache__/
+*.bak
+*.orig
+*.rej
+*.pre_*
+*.patch
+*.tar.gz
+
+# Python packaging
+/build/
+/dist/
+*.egg-info/
+.eggs/
+
+# Local experimental datasets
+/xray_input/
+/src/test/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Local Python environments
+/venv/
+/.venv/
+/venv_ml/
+/env/

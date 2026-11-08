@@ -1,0 +1,9 @@
+energy,unc_en,intensity_%,unc_i,type,start level H-l [sec],start level energy  [keV],  end level energy  [keV],  end level H-l  [sec], multipolarity, mixing ratio, unc, conversion coeff. ,unc, parent Z, N, symbol, parent energy shift,parent energy  [keV] , unc.1, jp,  half_life, half-life operator,unc.1,unit, half_life [s], unc.2, decay, decay %, unc.3,Q , unc.4, Z,N, symbol ,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+142.651,0.002,1.02,0.05,2.1e-10,G,5.51e-10,1434.253,1291.601,M1+E2,-0.028,12,0.0161,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+189.0,,0.0011,0.0012,,G,5.51e-10,1481.63,1291.601,,,,,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+192.343,0.005,3.08,0.12,5.51e-10,G,1.4e-11,1291.601,1099.257,M1+E2,0.22,2,0.0091,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+334.8,0.2,0.27,0.012,2.1e-10,G,1.4e-11,1434.253,1099.257,(M1+E2),1.8,5,0.0049,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+382.0,0.4,0.018,0.003,,G,1.4e-11,1481.63,1099.257,(M1+E2),0.21,LT,0.00147,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+1099.245,0.003,56.5,0.9,1.4e-11,G,,1099.257,0.0,E2,,,0.000174,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+1291.59,0.006,43.2,0.9,5.51e-10,G,,1291.601,0.0,E2,,,0.000148,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21
+1481.7,0.2,0.059,0.007,,G,,1481.63,0.0,(M1+E2),-0.19,4,0.000145,,26,33,Fe,,0,,3/2-,44.49,,9,d,3843936,777.6,B-,100,,1564.9,4,27,32,Co,1-Apr-2018,M. Shamsuzzoha Basunia,2024-03-21

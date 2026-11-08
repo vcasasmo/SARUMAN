@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{ name = "Victor J. Casas Molina" }]
+name = "saruman-nuclear"
+version = "0.1.0"
+description = "Spatial Activity Reconstruction Using Machine-learning Algorithms for Nuclear Waste"
+requires-python = ">=3.9"
+# On CUDA machines install the compatible JAX CUDA build separately.
+dependencies = [
+    "numpy", "scipy", "pandas", "polars", "torch", "tensorflow>=2.19,<2.20",
+    "jax>=0.4.30,<0.5", "numpyro", "h5py", "xarray", "SimpleITK",
+    "scikit-image", "scikit-learn", "joblib", "PyYAML", "tqdm", "matplotlib",
+]
+
+[project.scripts]
+saruman = "src.cli:main"
+
+[tool.setuptools]
+packages = ["src", "src.radwaste_engine", "src.surrogates", "src.tools", "src.surrogates.ct2lac"]
+include-package-data = false
+
+[tool.setuptools.package-data]
+# Deliberately include only production resources; exclude big scenario caches.
+"src" = [
+    "default_config.yaml", "data/*.csv", "data/gammaspec/*.csv",
+    "data/mac/*.csv", "surrogates/*.keras", "surrogates/*.pkl",
+    "surrogates/ct2lac/*.joblib", "surrogates/ct2lac/*.csv",
+]

@@ -1,0 +1,80 @@
+# SARUMAN default configuration
+# Physical geometry, CT processing, path calculation and Bayesian inference.
+# Values are loaded first; ./config.yaml or --config overrides individual fields.
+
+paths:
+  data_dir: ~/.cache/saruman/scenarios
+  detector_coordinates_file: src/data/detector_coordinates.csv
+geometry:
+  drum_radius_mm: 287.0
+  drum_height_mm: 885.0
+  steel_wall_thickness_mm: 1.0
+  steel_density_g_cm3: 7.874
+  detector_rotation_deg: 180.0
+ct_processing:
+  downsampling_method: baseline
+  oversample_factor: 3
+  grid_size:
+  - 31
+  - 48
+  - 31
+  grid_spacing_mm:
+  - 19.2
+  - 19.2
+  - 19.2
+  shift_mm:
+  - 0.0
+  - -63.0
+  - 0.0
+  preview_alignment: false
+  barrel_removal:
+    enabled: false
+    center_x_mm: 0.0
+    center_z_mm: 0.0
+    inner_radius_mm: 281.0
+    outer_radius_mm: 600.0
+    replacement_value: 0.0
+path_calculation:
+  chunk_size: 25000
+  max_workers: 10
+  start_method: spawn
+detector_surrogate:
+  device: cpu
+  nn:
+    model_path: src/surrogates/model_vol_source.keras
+    input_scaler: src/surrogates/scaler_X_vol_source.pkl
+    output_scaler: src/surrogates/scaler_y_vol_source.pkl
+ct2lac:
+  rf_model_path: src/surrogates/ct2lac/rf_Z_predictor.joblib
+  density_calibration_path: src/surrogates/ct2lac/CT_density_LAC_calibration_data.csv
+  nist_database_path: src/surrogates/ct2lac/LAC_nist_database.csv
+solver:
+  iterations: 30000
+  posterior_samples: 1000
+  seed: 42
+  prior:
+    beta_alpha: 0.1
+    beta_beta: 20.0
+    magnitude_exponent_lower: 0.0
+    magnitude_exponent_upper: 9.0
+    noise_gamma_shape: 1000.0
+    noise_gamma_rate: 999.0
+  observations:
+    omit_zero: true
+    gamma_matching_tolerance_kev: 0.15
+  optimization:
+    learning_rate: 0.001
+    elbo_particles: 10
+mass_calibration:
+  enabled: false
+  declared_gross_mass_kg: null
+  empty_drum_mass_kg: 19.0
+debug:
+  enabled: false
+  output_dir: debug
+  export_coarsened_ct: true
+  export_attenuation: true
+  export_efficiency: true
+  positions: auto
+  max_positions: 4
+  energy_index: 0

@@ -1,0 +1,10 @@
+# SARUMAN user configuration (optional)
+# Save as config.yaml beside your input data, or pass --config PATH.
+# Specify only the settings you wish to override.
+
+paths:
+  data_dir: ~/.cache/saruman/scenarios
+
+debug:
+  enabled: false
+  output_dir: debug

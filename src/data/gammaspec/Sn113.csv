@@ -1,0 +1,6 @@
+energy,unc_en,intensity_%,unc_i,type,start level H-l [sec],start level energy  [keV],  end level energy  [keV],  end level H-l  [sec], multipolarity, mixing ratio, unc, conversion coeff. ,unc, parent Z, N, symbol, parent energy shift,parent energy  [keV] , unc.1, jp,  half_life, half-life operator,unc.1,unit, half_life [s], unc.2, decay, decay %, unc.3,Q , unc.4, Z,N, symbol ,ENSDF_publication_cut-off,ENSDF_authors,Extraction_date
+255.134,0.01,2.11,0.08,,G,5968.56,646.833,391.699,M1+E2,0.7,6.0,0.046,,50,63,Sn,,0,,1/2+,115.09,,3,d,9943776,2592,EC+B+,100,,1039,16,49,64,In,01-May-09,Jean Blachot,22/03/2024
+382.9,0.08,6e-05,3e-06,3.3e-10,G,,1029.73,646.833,,,,,,50,63,Sn,,0,,1/2+,115.09,,3,d,9943776,2592,EC+B+,100,,1039,16,49,64,In,01-May-09,Jean Blachot,22/03/2024
+391.698,0.003,64.97,0.17,5968.56,G,,391.699,0.0,M4,,,0.551,,50,63,Sn,,0,,1/2+,115.09,,3,d,9943776,2592,EC+B+,100,,1039,16,49,64,In,01-May-09,Jean Blachot,22/03/2024
+638.03,0.08,0.00097,4e-05,3.3e-10,G,5968.56,1029.73,391.699,E1,,,0.001294,,50,63,Sn,,0,,1/2+,115.09,,3,d,9943776,2592,EC+B+,100,,1039,16,49,64,In,01-May-09,Jean Blachot,22/03/2024
+646.83,0.01,4e-06,2e-06,,G,,646.833,0.0,[E3],,,0.00865,,50,63,Sn,,0,,1/2+,115.09,,3,d,9943776,2592,EC+B+,100,,1039,16,49,64,In,01-May-09,Jean Blachot,22/03/2024
