@@ -141,6 +141,29 @@ The reconstruction stage produces activity estimates, posterior samples, diagnos
 
 Optional debug outputs can be enabled through the YAML configuration.
 
+## Experimental Dataset and Reproducibility
+
+The experimental dataset associated with SARUMAN is publicly available on Zenodo:
+
+**[SARUMAN Experimental Mockup Dataset](https://doi.org/10.5281/zenodo.24062457)**
+
+DOI: `10.5281/zenodo.24062457`
+
+The dataset comprises six homogeneous (HOM-1 to HOM-6) and three heterogeneous
+(HET-1 to HET-3) radioactive waste drum mockups. Each configuration includes
+X-ray CT reconstructions and Angular Segmented Gamma Scanning (ASGS) measurements.
+
+The experimental data are distributed separately from the source code to
+facilitate independent access, reproducibility, and reuse.
+
+**Reference publication:**
+
+https://doi.org/10.1016/j.anucene.2026.112850
+
+Researchers are encouraged to consult the publication for the experimental
+setup, reconstruction methodology, and interpretation of the results before
+using the dataset.
+
 ## Scientific Limitations
 
 The inverse problem may be underdetermined, particularly when limited gamma-ray measurements are available.
